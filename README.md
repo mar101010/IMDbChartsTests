@@ -1,3 +1,1 @@
-"# IMDbChartsTests" 
-"# IMDbChartsTests" 
-"# IMDbTopRatedMoviesTests" 
+# IMDbTopRatedMoviesTests" 
