@@ -76,13 +76,13 @@ Preconditions:
 
 Steps:
 1. Make sure that all common texts of the IMDb Chart's view are correct:
-Article: "IMDb Charts"
-Header: "Top Rated Movies"
-Summary: "Top 250 as rated by IMDb Users"
-Share: "SHARE"
-Description: "Showing 250 Titles"
-Sorting menu: "Sort by:"
-Columns: "Poster", "Rank & Title", "IMDb Rating", "Your Rating", "Add to Watchlist"
+- Article: "IMDb Charts"
+- Header: "Top Rated Movies"
+- Summary: "Top 250 as rated by IMDb Users"
+- Share: "SHARE"
+- Description: "Showing 250 Titles"
+- Sorting menu: "Sort by:"
+- Columns: "Poster", "Rank & Title", "IMDb Rating", "Your Rating", "Add to Watchlist"
 
 Expected: All the texts of "Top Rated Movies" divisiton have correct names
 
