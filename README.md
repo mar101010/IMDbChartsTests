@@ -65,7 +65,7 @@ Bug! "IMDb Charts" section is not seen from "Top Rated Indian Movies"
 
 ## Test cases to be added to smoketest:
 #### 1, 2, 3, 5, 6, 12, 16, 19
-#### The test cases, which has dependencies to other modules and components, should be smoke-tested.
+#### These tests most probably have dependencies on other modules and components. As you have see, we have vew testcases for the same functionality from different views (e.g. 8, 12 and 13 for "Add to Watchlist"). It such cases I take only one test for smoketest.
 
 ## Two tests (#4 and #8) are automated and described in a detailed way below 
 
