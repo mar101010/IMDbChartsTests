@@ -1,6 +1,6 @@
-#IMDb Top Rated Movies Tests 
+# IMDb Top Rated Movies Tests 
 
-##How to run the tests 
+## How to run the tests 
 
 The tests are written in Java and managed by Maven project management tools. The project name is "ImdbTopRatedMovies".
 1. To install and configure Maven please refer to following article, it contains instruction for Windows, Linux and Mac: https://www.baeldung.com/install-maven-on-windows-linux-mac
@@ -63,13 +63,13 @@ Bug! "IMDb Charts" section is not seen from "Top Rated Indian Movies"
 ! no tooltip for Poster, see bug in test 10
 
 
-##Test cases to be added to smoketest:
-####1, 2, 3, 5, 6, 12, 16, 19
-####The test cases, which has dependencies to other modules and components, should be smoke-tested.
+## Test cases to be added to smoketest:
+#### 1, 2, 3, 5, 6, 12, 16, 19
+#### The test cases, which has dependencies to other modules and components, should be smoke-tested.
 
-##Two tests (#4 and #8) are automated and described in a detailed way below 
+## Two tests (#4 and #8) are automated and described in a detailed way below 
 
-###4 -  All texts are correct in "Top Rated Movies"
+### 4 -  All texts are correct in "Top Rated Movies"
 
 Preconditions:
 1. "Top Rated Movies" division of "IMDb Charts" section is open
@@ -86,7 +86,7 @@ Columns: "Poster", "Rank & Title", "IMDb Rating", "Your Rating", "Add to Watchli
 
 Expected: All the texts of "Top Rated Movies" divisiton have correct names
 
-###8 - Logged user can add the item to Watchlist in items list
+### 8 - Logged user can add the item to Watchlist in items list
 
 Preconditions:
 1. User is signed in
