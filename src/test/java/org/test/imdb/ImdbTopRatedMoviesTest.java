@@ -1,4 +1,4 @@
-package org.test.Imdb;
+package org.test.imdb;
 
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;

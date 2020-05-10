@@ -1,4 +1,4 @@
-package org.test.Imdb;
+package org.test.imdb;
 
 import com.codeborne.selenide.*;
 import static com.codeborne.selenide.Selenide.*;
@@ -41,7 +41,7 @@ public class ImdbTopRatedMoviesPage {
     }
 
     public int getRandomMovieItemIndex() {
-        return org.test.Imdb.Utility.random(0, movieItemsList.size() - 1);
+        return Utility.random(0, movieItemsList.size() - 1);
     }
 
     public String getMovieItemTitle(int itemIndex) {

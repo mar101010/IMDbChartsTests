@@ -1,4 +1,4 @@
-package org.test.Imdb;
+package org.test.imdb;
 
 import com.codeborne.selenide.*;
 import static com.codeborne.selenide.Selenide.*;
