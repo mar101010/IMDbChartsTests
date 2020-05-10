@@ -9,9 +9,9 @@ public class ImdbTopRatedMoviesPage {
     private ElementsCollection movieItemsList = $$(movieItemsListElement);
 
     public ImdbTopRatedMoviesPage() {
-        System.setProperty("webdriver.chrome.driver", "src/test/java/resources/chromedriverWin.exe");
-        //System.setProperty("webdriver.chrome.driver", "src/test/java/resources/chromedriverLinux.exe");
-        //System.setProperty("webdriver.chrome.driver", "src/test/java/resources/chromedriverMac.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriverWin.exe");
+        //System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriverLinux");
+        //System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriverMac");
         System.setProperty("selenide.browser", "Chrome");
         Configuration.baseUrl = "https://www.imdb.com/chart/top?ref_=nv_mv_250_6";
     }
@@ -41,7 +41,7 @@ public class ImdbTopRatedMoviesPage {
     }
 
     public int getRandomMovieItemIndex() {
-        return Utility.random(0, movieItemsList.size() - 1);
+        return org.test.Imdb.Utility.random(0, movieItemsList.size() - 1);
     }
 
     public String getMovieItemTitle(int itemIndex) {
