@@ -1,11 +1,11 @@
 # IMDb Top Rated Movies Tests 
 
-## How to run the tests 
-
+## How to run the tests
+  
 The tests are written in Java and managed by Maven project management tools. The project name is "ImdbTopRatedMovies".
 1. To install and configure Maven please refer to following article, it contains instruction for Windows, Linux and Mac: https://www.baeldung.com/install-maven-on-windows-linux-mac
 2. In Java class "ImdbTopRatedMoviesPage" of mentioned project, in the same-named constructor all Chrome drivers pathes are specified (for Windows, for Linux and for Mac). Please uncomment one depending on your OS. Chrome driver for Windows is un-commented by default.  
-3. Run "mvn test" command in terminal or cmd from the root folder of the project.
+3. Run "mvn clean test" command in terminal or cmd from the root folder of the commit or from project folder (if you use Intellij, Exlipse etc).
 Should you have any questions feel free to email me!
 
 ## Tests
